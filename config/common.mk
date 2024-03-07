@@ -1,3 +1,6 @@
+# Unofficial patch level
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.lineage.custom_version=2025-11-05
+
 # Allow vendor/extra to override any property by setting it first
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 
